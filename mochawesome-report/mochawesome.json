@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-10-31T10:49:49.508Z",
+    "end": "2025-10-31T10:49:49.513Z",
+    "duration": 5,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f3071f7a-4016-47c3-bafe-02ce1fcc0cf9",
+      "title": "",
+      "fullFile": "C:\\Users\\Matej\\OneDrive\\Desktop\\test\\test\\numbersvalidator\\isNumberEven.spec.js",
+      "file": "\\test\\numbersvalidator\\isNumberEven.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "93799d6c-c256-495d-a149-5b5a18c0bad2",
+          "title": "isNumberEven",
+          "fullFile": "C:\\Users\\Matej\\OneDrive\\Desktop\\test\\test\\numbersvalidator\\isNumberEven.spec.js",
+          "file": "\\test\\numbersvalidator\\isNumberEven.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"isNumberEven\"",
+              "fullTitle": "isNumberEven \"before each\" hook in \"isNumberEven\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "numbersValidator = new NumbersValidator();",
+              "err": {},
+              "uuid": "9ea238b7-668e-4108-97e8-451e4c70a4e1",
+              "parentUUID": "93799d6c-c256-495d-a149-5b5a18c0bad2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"isNumberEven\"",
+              "fullTitle": "isNumberEven \"after each\" hook in \"isNumberEven\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "numbersValidator = null;",
+              "err": {},
+              "uuid": "fa8b536d-3549-4807-9e97-ae6d30b04f08",
+              "parentUUID": "93799d6c-c256-495d-a149-5b5a18c0bad2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return true if the number is even",
+              "fullTitle": "isNumberEven should return true if the number is even",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const result = numbersValidator.isNumberEven(2);\nexpect(result).to.be.true;",
+              "err": {},
+              "uuid": "145a0f13-e55e-46f9-a855-a08b0f37007e",
+              "parentUUID": "93799d6c-c256-495d-a149-5b5a18c0bad2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false if the number is odd",
+              "fullTitle": "isNumberEven should return false if the number is odd",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const result = numbersValidator.isNumberEven(3);\nexpect(result).to.be.false;",
+              "err": {},
+              "uuid": "669221fa-8b93-4349-8d2c-b40bcd14592f",
+              "parentUUID": "93799d6c-c256-495d-a149-5b5a18c0bad2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "145a0f13-e55e-46f9-a855-a08b0f37007e",
+            "669221fa-8b93-4349-8d2c-b40bcd14592f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.7.4"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.3.0"
+    }
+  }
+}
